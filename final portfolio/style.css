@@ -1,0 +1,205 @@
+body {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+.bgimage {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  color: white;
+}
+/* .navbar {
+  position: fixed;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+} */
+nav {
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+  font-size: 17px;
+}
+nav a:hover {
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 6px 0;
+}
+.navbar-content {
+  font-family: "Montserrat", sans-serif;
+  /* letter-spacing: 1px; */
+  font-weight: 600px;
+}
+.aboutdisplay {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 900px;
+  font-size: medium;
+}
+.maindisplay {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+.textdisplay {
+  line-height: 2;
+}
+
+.icons a {
+  margin: 15px;
+  text-decoration: none;
+}
+a i {
+  transition: all 0.3 linear;
+  font-size: 45px;
+}
+a:hover i {
+  transform: scale(1.4);
+}
+.fa-envelope {
+  color: #c4d80c;
+}
+.fa-instagram {
+  color: #e84393;
+}
+.fa-linkedin {
+  color: #055de1;
+}
+.fa-facebook-f {
+  color: #0097e6;
+}
+.fa-github {
+  color: azure;
+}
+
+/* projects section */
+.project-section {
+  height: 100vh;
+  width: 100%;
+  /* background-color: #dee2e6; */
+  background-color: #dee2e6;
+}
+
+.heading {
+  padding-top: 45px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-body {
+  height: 250px;
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+}
+
+.Skills {
+  height: 100vh;
+  width: 100%;
+  padding-top: 30px;
+  /* background-color: rgba(220, 220, 220, 0.739); */
+  background-color: rgb(204, 204, 204);
+}
+
+.skills-section {
+  width: 100vh;
+  height: 50vh;
+}
+
+.skill-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+.circle2 {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  /* margin-top: 20px;
+  margin-left: 17px; */
+  background-image: conic-gradient(
+    white 0deg,
+    white 180deg,
+    #ffffff74 180deg,
+    #ffffff74 360deg
+  );
+  box-shadow: 1px 2px 2px 1px rgba(32, 33, 36, 0.33);
+}
+
+.img {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.skill-container {
+  height: 70vh;
+  width: 75%;
+  margin-left: 250px;
+}
+
+.Education {
+  color: #dee2e6;
+  height: 100vh;
+  width: 100%;
+  /* background-color: #dee2e6; */
+  background-color: #a5cce6;
+  /* background-color: #6194c8; */
+}
+
+.edu-info {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  height: 100%;
+  width: 60%;
+  background-color: rgb(23, 3, 76);
+}
+
+.Name {
+  color: #69b3e4;
+  font-size: large;
+}
+.Field {
+  font-weight: 100;
+  font-style: italic;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+.Marks {
+  font-weight: 100;
+  /* font-style: italic; */
+  /* font-family: serif; */
+}
+
+.contact {
+  height: 30vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.923);
+}
